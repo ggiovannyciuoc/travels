@@ -61,7 +61,7 @@ img{
 }
   
 .bnt-detalles a{
-    background-color: #EB5E28;
+    background-color: #ffb300;
     border-radius: 10px;
     color: white;
     font-size: smaller;
@@ -75,7 +75,7 @@ img{
   .bnt-detalles a:hover{
     background-color: black;
     border-radius: 10px;
-    color: #EB5E28;
+    color: #ffb300;
     font-size: smaller;
     text-decoration: none;
   }
@@ -141,10 +141,10 @@ footer{
   border-radius: 5px;
   text-decoration: none;
   font-size: 17px;
-  background-color: #EB5E28;
+  background-color: #ffb300;
   font-weight: bolder;
   margin: 3px;
-  border-color: #EB5E28;
+  border-color: #ffb300;
   border-style: solid;
   border-width: 1px;
   
@@ -153,7 +153,7 @@ footer{
   background-color: black;
   color: white;
   font-weight: bolder;
-  border-color: #EB5E28;
+  border-color: #ffb300;
   border-style: solid;
   border-width: 1px;
 }
@@ -199,7 +199,7 @@ footer{
 
 .navCategoria a:hover{
   background-color: black;
-  border-color: #EB5E28;
+  border-color: #ffb300
 }
 
 /*Sections*/
