@@ -70,8 +70,8 @@ img{
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    padding: 4px;    
-    color: black;  
+    padding: 4px 18px 4px 18px;    
+    color: black;
 }
 
   .bnt-detalles a:hover{
@@ -95,13 +95,11 @@ header {
 main{
   display:grid;
   grid-template-columns: 65% 35%;
-  
   background-color: black;
   padding: 3px;
 }
 
 section{
-  
   background-color: #CCC5B9;
   border-radius: 10px;
   color: black;
@@ -116,10 +114,7 @@ aside{
   margin:1px;
   text-align: center;
   padding: 29px 6px 6px 6px;
-  
 }
-
-
 
 footer{
   padding: 2px;
@@ -130,28 +125,28 @@ footer{
 }
 
 .nav {
+  padding: 4px;
   overflow: hidden;
   background-color:black;
-  padding: 4px;
-  
 }
+
 .nav a {
   float: left;
+  margin: 3px; 
   display: block;
-  text-align: center;
   padding: 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 17px;
-  background-color: #ffb300;
-  font-weight: bolder;
-  margin: 3px;
-  border-color: #ffb300;
-  border-style: solid;
+  color: black;
   border-width: 1px;
-  color: black;  
-  
+  font-size: 17px; 
+  text-align: center;
+  border-radius: 5px;
+  border-style: solid;
+  font-weight: bolder;
+  text-decoration: none;
+  border-color: #ffb300;
+  background-color: #ffb300; 
 }
+
 .nav a:hover {
   background-color: black;
   color: white;
@@ -167,35 +162,29 @@ footer{
   border-width: 0px;
 }
 
-.nav .icon {
-  display: none;
-}
+.nav .icon { display: none;} /*Responsive menu/*
 
 /*Links Categoria*/
 
 .navCategoria{
-
   display: grid;
   grid-template-columns: auto;
   padding: 2px;
   text-align: center;
   width: 80%;
   margin: auto;
- 
-  
 }
 
 .navCategoria a{
-
-  background-color:#880e4f;
   margin: 8px;
-  padding: 4px;;
-  text-decoration: none;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: black;
+  padding: 4px;
+  color:white;
   border-width: 1px;
-  color: white;
+  border-style: solid;
+  border-radius: 10px;
+  text-decoration: none;
+  border-color: black;
+  background-color:#880e4f;
 }
 
 .navCategoria a:hover{
@@ -206,56 +195,26 @@ footer{
 /*Sections*/
 
 @media screen and (max-width: 600px) {
-  
   main{
     display:grid;
     grid-template-columns: 100%;
     text-align: center;
     }
-}
+  }
 
 @media screen and (max-width: 600px) {
-  
  .bnt-detalles{
     display:grid;
     grid-template-columns: 65%;
     text-align: center;
-    
     }
 }
 
-@media screen and (max-width: 600px) {
-  
-  section{
-    text-align: left;
-    
-    }
-}
+@media screen and (max-width: 600px) {section{text-align: left;}}
 
-@media screen and (max-width: 950px) {
-  
-  #wrapper{
-    width: 100%;
-    }
-}
+@media screen and (max-width: 950px) {#wrapper{width: 100%;}}
 
-@media screen and (max-width: 600px) {
-  
-  .nav{
-    
-    padding: 0px;
-    
-    }
-}
-
-@media screen and (max-width: 600px) {
-  
-  img{
-    
-    width: 98%;
-    
-    }
-}
+@media screen and (max-width: 600px) {img{width: 98%;}}
 
 /*Navegacion Resposive*/
 

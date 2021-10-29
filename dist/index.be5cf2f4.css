@@ -14,6 +14,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: darkslategrey;
+  
 }
 
 #wrapper{
@@ -61,7 +62,7 @@ img{
 }
   
 .bnt-detalles a{
-    background-color: #EB5E28;
+    background-color: #ffb300;
     border-radius: 10px;
     color: white;
     font-size: smaller;
@@ -69,15 +70,19 @@ img{
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    padding: 4px;    
+    padding: 4px 18px 4px 18px;    
+    color: black;
 }
 
   .bnt-detalles a:hover{
     background-color: black;
     border-radius: 10px;
-    color: #EB5E28;
+    color: #ffb300;
     font-size: smaller;
     text-decoration: none;
+    color: white;
+    border-style:solid;
+    border-color: #ffb300;
   }
 
 header {
@@ -90,13 +95,11 @@ header {
 main{
   display:grid;
   grid-template-columns: 65% 35%;
-  
   background-color: black;
   padding: 3px;
 }
 
 section{
-  
   background-color: #CCC5B9;
   border-radius: 10px;
   color: black;
@@ -111,10 +114,7 @@ aside{
   margin:1px;
   text-align: center;
   padding: 29px 6px 6px 6px;
-  
 }
-
-
 
 footer{
   padding: 2px;
@@ -125,35 +125,33 @@ footer{
 }
 
 .nav {
+  padding: 4px;
   overflow: hidden;
   background-color:black;
-  padding: 4px;
-  
-  
-  
 }
+
 .nav a {
   float: left;
+  margin: 3px; 
   display: block;
-  color: #f2f2f2;
-  text-align: center;
   padding: 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 17px;
-  background-color: #EB5E28;
-  font-weight: bolder;
-  margin: 3px;
-  border-color: #EB5E28;
-  border-style: solid;
+  color: black;
   border-width: 1px;
-  
+  font-size: 17px; 
+  text-align: center;
+  border-radius: 5px;
+  border-style: solid;
+  font-weight: bolder;
+  text-decoration: none;
+  border-color: #ffb300;
+  background-color: #ffb300; 
 }
+
 .nav a:hover {
   background-color: black;
   color: white;
   font-weight: bolder;
-  border-color: #EB5E28;
+  border-color: #ffb300;
   border-style: solid;
   border-width: 1px;
 }
@@ -164,97 +162,59 @@ footer{
   border-width: 0px;
 }
 
-.nav .icon {
-  display: none;
-}
+.nav .icon { display: none;} /*Responsive menu/*
 
 /*Links Categoria*/
 
 .navCategoria{
-
   display: grid;
   grid-template-columns: auto;
   padding: 2px;
   text-align: center;
   width: 80%;
   margin: auto;
-  font-size: small;
-  
 }
 
 .navCategoria a{
-
-  background-color:#880e4f;
-  margin: 2px;
-  padding: 2px;;
-  text-decoration: none;
-  color: white;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: black;
+  margin: 8px;
+  padding: 4px;
+  color:white;
   border-width: 1px;
-  
-
+  border-style: solid;
+  border-radius: 10px;
+  text-decoration: none;
+  border-color: black;
+  background-color:#880e4f;
 }
 
 .navCategoria a:hover{
   background-color: black;
-  border-color: #EB5E28;
+  border-color: #ffb300
 }
 
 /*Sections*/
 
 @media screen and (max-width: 600px) {
-  
   main{
     display:grid;
     grid-template-columns: 100%;
     text-align: center;
     }
-}
+  }
 
 @media screen and (max-width: 600px) {
-  
  .bnt-detalles{
     display:grid;
     grid-template-columns: 65%;
     text-align: center;
-    
     }
 }
 
-@media screen and (max-width: 600px) {
-  
-  section{
-    text-align: left;
-    
-    }
-}
+@media screen and (max-width: 600px) {section{text-align: left;}}
 
-@media screen and (max-width: 950px) {
-  
-  #wrapper{
-    width: 100%;
-    }
-}
+@media screen and (max-width: 950px) {#wrapper{width: 100%;}}
 
-@media screen and (max-width: 600px) {
-  
-  .nav{
-    
-    padding: 0px;
-    
-    }
-}
-
-@media screen and (max-width: 600px) {
-  
-  img{
-    
-    width: 98%;
-    
-    }
-}
+@media screen and (max-width: 600px) {img{width: 98%;}}
 
 /*Navegacion Resposive*/
 
