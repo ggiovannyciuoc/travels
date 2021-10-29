@@ -14,6 +14,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: darkslategrey;
+  
 }
 
 #wrapper{
@@ -70,6 +71,7 @@ img{
     border-color: black;
     border-width: 1px;
     padding: 4px;    
+    color: black;  
 }
 
   .bnt-detalles a:hover{
@@ -78,6 +80,9 @@ img{
     color: #ffb300;
     font-size: smaller;
     text-decoration: none;
+    color: white;
+    border-style:solid;
+    border-color: #ffb300;
   }
 
 header {
@@ -129,8 +134,6 @@ footer{
   background-color:black;
   padding: 4px;
   
-  
-  
 }
 .nav a {
   float: left;
@@ -146,6 +149,7 @@ footer{
   border-color: #ffb300;
   border-style: solid;
   border-width: 1px;
+  color: black;  
   
 }
 .nav a:hover {
@@ -177,22 +181,21 @@ footer{
   text-align: center;
   width: 80%;
   margin: auto;
-  font-size: small;
+ 
   
 }
 
 .navCategoria a{
 
   background-color:#880e4f;
-  margin: 2px;
-  padding: 2px;;
+  margin: 8px;
+  padding: 4px;;
   text-decoration: none;
   border-radius: 10px;
   border-style: solid;
   border-color: black;
   border-width: 1px;
-  
-
+  color: white;
 }
 
 .navCategoria a:hover{
