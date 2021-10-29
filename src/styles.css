@@ -135,7 +135,6 @@ footer{
 .nav a {
   float: left;
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 15px;
   border-radius: 5px;
@@ -188,7 +187,6 @@ footer{
   margin: 2px;
   padding: 2px;;
   text-decoration: none;
-  color: white;
   border-radius: 10px;
   border-style: solid;
   border-color: black;
